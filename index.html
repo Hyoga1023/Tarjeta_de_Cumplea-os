@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarjeta de Cumpleaños</title>
+    <title>Tarjeta de Cumpleaños Interactiva</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="contenedor__texto">
+            <h1 class="Mensaje__principal">Feliz Cumpleaños Mi Princesa</h1>
+            <br><br>
+            <P class="mensaje__secundario">Me siento muy orgulloso de la joven que estás convirtiéndote, 
+                valiente, curiosa y siempre con una sonrisa que ilumina cada lugar al que vas...</P>
+                <br><br>
+        </div>
+        <figure>
+            <img class="imagen" src="./img/Regalo.png" alt="imagen de un obsequio sin destapar" id="gift-image">
+        </figure>
+        <div class="tarjeta" id="tarjeta">
+            <p>¡Sorpresa! ¡Feliz 14 años! Eres lo mejor que me ha pasado, y estoy emocionado por todo lo que viene. 
+                Sigue siendo tan especial como siempre. 💖</p>
+        </div>
+    </div>
 </body>
 </html>
+

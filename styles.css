@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to top, #ff7e5f, #feb47b, #86a8e7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dancing-script-title {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    padding: 20px;
+    margin-bottom: 5%;
+}
+
+.contenedor__texto {
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 5%; 
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.imagen {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.tarjeta {
+    display: none;
+    background-color: #fff;
+    border: 2px solid #ff7e5f;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Dancing Script', cursive;
+    animation: fadeIn 1s;
+    max-width: 400px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    p {
+        font-size: 1.3rem;
+    }
+    
+    .tarjeta, .contenedor__texto, .imagen {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    p {
+        font-size: 1.2rem;
+    }
+    
+    .tarjeta, .contenedor__texto, .imagen {
+        max-width: 300px;
+    }
+}

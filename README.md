@@ -1,2 +1,2 @@
-# Tarjeta_de_Cumplea-os
+# Tarjeta_de_Cumpleaños
 Tarjeta de Cumpleaños

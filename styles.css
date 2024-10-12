@@ -13,7 +13,9 @@ body, html {
     justify-content: center;
     align-items: center;
 }
-
+#background-music {
+    display: none;
+}
 .dancing-script-title {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
